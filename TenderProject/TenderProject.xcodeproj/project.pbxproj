@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		442B525B29112CBD0091761C /* WiinnedTendersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442B525A29112CBD0091761C /* WiinnedTendersTableViewController.swift */; };
+		442B525D29112CED0091761C /* DetailOfWinnedTenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442B525C29112CED0091761C /* DetailOfWinnedTenderViewController.swift */; };
+		44363B6C2909D71E0009E9D0 /* DetailOfCreatedTenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44363B6B2909D71E0009E9D0 /* DetailOfCreatedTenderViewController.swift */; };
+		443E5E5D290BC18100668678 /* ListOfAcualTendersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E5E5C290BC18100668678 /* ListOfAcualTendersTableViewController.swift */; };
+		443E5E5F290BC1AC00668678 /* DetailOfActualTenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E5E5E290BC1AC00668678 /* DetailOfActualTenderViewController.swift */; };
+		444A06252907F5FA007E9A67 /* MyTendersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444A06242907F5F9007E9A67 /* MyTendersTableViewController.swift */; };
+		444CB922290D4EB000DB47FB /* TakePartInTenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 444CB921290D4EB000DB47FB /* TakePartInTenderViewController.swift */; };
+		447E470A290B3277002A2A05 /* MembersOfCreatedTenderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447E4709290B3277002A2A05 /* MembersOfCreatedTenderTableViewController.swift */; };
+		4483D2DE290EA03F00F8CE5E /* DetailOfMyTenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4483D2DD290EA03F00F8CE5E /* DetailOfMyTenderViewController.swift */; };
+		44B47F422906CDE600277640 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B47F412906CDE600277640 /* AppDelegate.swift */; };
+		44B47F442906CDE600277640 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B47F432906CDE600277640 /* SceneDelegate.swift */; };
+		44B47F462906CDE600277640 /* Regist_Authoriz_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B47F452906CDE600277640 /* Regist_Authoriz_ViewController.swift */; };
+		44B47F492906CDE600277640 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B47F472906CDE600277640 /* Main.storyboard */; };
+		44B47F4B2906CDE600277640 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44B47F4A2906CDE600277640 /* Assets.xcassets */; };
+		44B47F4E2906CDE600277640 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44B47F4C2906CDE600277640 /* LaunchScreen.storyboard */; };
+		44B47F562906CED600277640 /* ServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B47F552906CED600277640 /* ServerManager.swift */; };
+		44B47F582906D86A00277640 /* AllOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B47F572906D86A00277640 /* AllOptionsViewController.swift */; };
+		44B47F5A2906F0BE00277640 /* CreateTenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B47F592906F0BE00277640 /* CreateTenderViewController.swift */; };
+		44DBFDD929088D6B00B3F4DD /* CreatedTendersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44DBFDD829088D6B00B3F4DD /* CreatedTendersTableViewController.swift */; };
+		44F316D8290DC825006BCB7A /* DetailOfMemberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44F316D7290DC825006BCB7A /* DetailOfMemberViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		442B525A29112CBD0091761C /* WiinnedTendersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiinnedTendersTableViewController.swift; sourceTree = "<group>"; };
+		442B525C29112CED0091761C /* DetailOfWinnedTenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOfWinnedTenderViewController.swift; sourceTree = "<group>"; };
+		44363B6B2909D71E0009E9D0 /* DetailOfCreatedTenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOfCreatedTenderViewController.swift; sourceTree = "<group>"; };
+		443E5E5C290BC18100668678 /* ListOfAcualTendersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfAcualTendersTableViewController.swift; sourceTree = "<group>"; };
+		443E5E5E290BC1AC00668678 /* DetailOfActualTenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOfActualTenderViewController.swift; sourceTree = "<group>"; };
+		444A06242907F5F9007E9A67 /* MyTendersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTendersTableViewController.swift; sourceTree = "<group>"; };
+		444CB921290D4EB000DB47FB /* TakePartInTenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TakePartInTenderViewController.swift; sourceTree = "<group>"; };
+		447E4709290B3277002A2A05 /* MembersOfCreatedTenderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MembersOfCreatedTenderTableViewController.swift; sourceTree = "<group>"; };
+		4483D2DD290EA03F00F8CE5E /* DetailOfMyTenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOfMyTenderViewController.swift; sourceTree = "<group>"; };
+		44B47F3E2906CDE600277640 /* TenderProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TenderProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B47F412906CDE600277640 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		44B47F432906CDE600277640 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		44B47F452906CDE600277640 /* Regist_Authoriz_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Regist_Authoriz_ViewController.swift; sourceTree = "<group>"; };
+		44B47F482906CDE600277640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44B47F4A2906CDE600277640 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44B47F4D2906CDE600277640 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44B47F4F2906CDE600277640 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44B47F552906CED600277640 /* ServerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServerManager.swift; sourceTree = "<group>"; };
+		44B47F572906D86A00277640 /* AllOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllOptionsViewController.swift; sourceTree = "<group>"; };
+		44B47F592906F0BE00277640 /* CreateTenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTenderViewController.swift; sourceTree = "<group>"; };
+		44DBFDD829088D6B00B3F4DD /* CreatedTendersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatedTendersTableViewController.swift; sourceTree = "<group>"; };
+		44F316D7290DC825006BCB7A /* DetailOfMemberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailOfMemberViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44B47F3B2906CDE600277640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44B47F352906CDE600277640 = {
+			isa = PBXGroup;
+			children = (
+				44B47F402906CDE600277640 /* TenderProject */,
+				44B47F3F2906CDE600277640 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44B47F3F2906CDE600277640 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44B47F3E2906CDE600277640 /* TenderProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44B47F402906CDE600277640 /* TenderProject */ = {
+			isa = PBXGroup;
+			children = (
+				44B47F412906CDE600277640 /* AppDelegate.swift */,
+				44B47F432906CDE600277640 /* SceneDelegate.swift */,
+				44B47F552906CED600277640 /* ServerManager.swift */,
+				44B47F452906CDE600277640 /* Regist_Authoriz_ViewController.swift */,
+				44B47F572906D86A00277640 /* AllOptionsViewController.swift */,
+				44B47F592906F0BE00277640 /* CreateTenderViewController.swift */,
+				447E4709290B3277002A2A05 /* MembersOfCreatedTenderTableViewController.swift */,
+				4483D2DD290EA03F00F8CE5E /* DetailOfMyTenderViewController.swift */,
+				442B525C29112CED0091761C /* DetailOfWinnedTenderViewController.swift */,
+				444A06242907F5F9007E9A67 /* MyTendersTableViewController.swift */,
+				44F316D7290DC825006BCB7A /* DetailOfMemberViewController.swift */,
+				442B525A29112CBD0091761C /* WiinnedTendersTableViewController.swift */,
+				444CB921290D4EB000DB47FB /* TakePartInTenderViewController.swift */,
+				44363B6B2909D71E0009E9D0 /* DetailOfCreatedTenderViewController.swift */,
+				443E5E5C290BC18100668678 /* ListOfAcualTendersTableViewController.swift */,
+				443E5E5E290BC1AC00668678 /* DetailOfActualTenderViewController.swift */,
+				44DBFDD829088D6B00B3F4DD /* CreatedTendersTableViewController.swift */,
+				44B47F472906CDE600277640 /* Main.storyboard */,
+				44B47F4A2906CDE600277640 /* Assets.xcassets */,
+				44B47F4C2906CDE600277640 /* LaunchScreen.storyboard */,
+				44B47F4F2906CDE600277640 /* Info.plist */,
+			);
+			path = TenderProject;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44B47F3D2906CDE600277640 /* TenderProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44B47F522906CDE600277640 /* Build configuration list for PBXNativeTarget "TenderProject" */;
+			buildPhases = (
+				44B47F3A2906CDE600277640 /* Sources */,
+				44B47F3B2906CDE600277640 /* Frameworks */,
+				44B47F3C2906CDE600277640 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TenderProject;
+			productName = TenderProject;
+			productReference = 44B47F3E2906CDE600277640 /* TenderProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44B47F362906CDE600277640 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					44B47F3D2906CDE600277640 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 44B47F392906CDE600277640 /* Build configuration list for PBXProject "TenderProject" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44B47F352906CDE600277640;
+			productRefGroup = 44B47F3F2906CDE600277640 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44B47F3D2906CDE600277640 /* TenderProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44B47F3C2906CDE600277640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B47F4E2906CDE600277640 /* LaunchScreen.storyboard in Resources */,
+				44B47F4B2906CDE600277640 /* Assets.xcassets in Resources */,
+				44B47F492906CDE600277640 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44B47F3A2906CDE600277640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44B47F5A2906F0BE00277640 /* CreateTenderViewController.swift in Sources */,
+				442B525D29112CED0091761C /* DetailOfWinnedTenderViewController.swift in Sources */,
+				44B47F562906CED600277640 /* ServerManager.swift in Sources */,
+				443E5E5F290BC1AC00668678 /* DetailOfActualTenderViewController.swift in Sources */,
+				44B47F582906D86A00277640 /* AllOptionsViewController.swift in Sources */,
+				447E470A290B3277002A2A05 /* MembersOfCreatedTenderTableViewController.swift in Sources */,
+				444A06252907F5FA007E9A67 /* MyTendersTableViewController.swift in Sources */,
+				44363B6C2909D71E0009E9D0 /* DetailOfCreatedTenderViewController.swift in Sources */,
+				44B47F462906CDE600277640 /* Regist_Authoriz_ViewController.swift in Sources */,
+				44B47F422906CDE600277640 /* AppDelegate.swift in Sources */,
+				44DBFDD929088D6B00B3F4DD /* CreatedTendersTableViewController.swift in Sources */,
+				4483D2DE290EA03F00F8CE5E /* DetailOfMyTenderViewController.swift in Sources */,
+				44F316D8290DC825006BCB7A /* DetailOfMemberViewController.swift in Sources */,
+				442B525B29112CBD0091761C /* WiinnedTendersTableViewController.swift in Sources */,
+				444CB922290D4EB000DB47FB /* TakePartInTenderViewController.swift in Sources */,
+				443E5E5D290BC18100668678 /* ListOfAcualTendersTableViewController.swift in Sources */,
+				44B47F442906CDE600277640 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		44B47F472906CDE600277640 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44B47F482906CDE600277640 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44B47F4C2906CDE600277640 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44B47F4D2906CDE600277640 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44B47F502906CDE600277640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44B47F512906CDE600277640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44B47F532906CDE600277640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TenderProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = r.TenderProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44B47F542906CDE600277640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TenderProject/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = r.TenderProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44B47F392906CDE600277640 /* Build configuration list for PBXProject "TenderProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B47F502906CDE600277640 /* Debug */,
+				44B47F512906CDE600277640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44B47F522906CDE600277640 /* Build configuration list for PBXNativeTarget "TenderProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44B47F532906CDE600277640 /* Debug */,
+				44B47F542906CDE600277640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44B47F362906CDE600277640 /* Project object */;
+}
